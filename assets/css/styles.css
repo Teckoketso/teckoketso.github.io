@@ -1016,7 +1016,66 @@ a.main_subscribe {
 /* //progress bars */
 
 /* //maintenance */
-
+/*-- stats --*/
+.stats {
+    background: url(../img/banner-bg.jpg) no-repeat fixed;
+    background-size: cover;
+}
+.wthree-different-dot1 {
+    background: rgba(0, 0, 0, 0.5);
+}
+.stats h3.heading{
+	color:#fff;
+}
+.travel span.glyphicon.glyphicon-play-circle {
+    margin-bottom: 0;
+}
+p.counter{
+	font-size: 3em;
+    color: #eee;
+    font-weight: bold;
+}
+.agileinfo_stats_grid h3{
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.w3_agileits_head1{
+	color:#212121 !important;
+}
+.agileinfo_stats_grid {
+    border: 2px solid #fff;
+    border-radius: 0%;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em 0;
+     box-shadow: 7px 7px #fff;
+    -webkit-box-shadow: 7px 7px #fff;
+    -o-box-shadow: 7px 7px #fff;
+    -moz-box-shadow: 7px 7px #fff;
+    -ms-box-shadow: 7px 7px #fff;
+}
+.agileinfo_stats.mid-w3l-stat {
+	position: relative;
+}
+.agileinfo_stats.mid-w3l-stat:after, .agileinfo_stats.mid-w3l-stat:after {
+    content: '';
+    background: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: -3%;
+}
+p.w3l-par-st {
+    margin-top: 3em;
+    color: #fff;
+    text-align: left;
+}
+/*-- //stats --*/
 
 
 

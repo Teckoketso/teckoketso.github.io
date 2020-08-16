@@ -1,0 +1,637 @@
+/*--responsive--*/
+
+@media(max-width:1366px) {
+    .banner-top,
+    .banner-top1,
+    .banner-top2,
+    .banner-top3,
+    .covering {
+        min-height: 600px;
+    }
+    .slider-banner-info {
+        padding-top: 10em;
+    }
+    .slider-banner-info h3 {
+        font-size: 2em;
+    }
+    .slider-banner-info h5 {
+        font-size: 1em;
+    }
+    .jssor_1 {
+        margin: 180px auto;
+    }
+}
+
+@media(max-width:1280px) {
+    .banner-top,
+    .banner-top1,
+    .banner-top2,
+    .banner-top3,
+    .covering {
+        min-height: 550px;
+    }
+    .slider-banner-info {
+        padding-top: 9em;
+    }
+    .thim-click-to-bottom {
+        position: absolute;
+        bottom: 35%;
+    }
+    .callbacks_tabs {
+        bottom: 16%;
+        left: 44%;
+    }
+}
+
+@media(max-width:1080px) {
+    .banner-top,
+    .banner-top1,
+    .banner-top2,
+    .banner-top3,
+    .covering {
+        min-height: 500px;
+    }
+    .slider-banner-info h3 {
+        font-size: 1.7em;
+    }
+    .slider-banner-info h5 {
+        font-size: 1em;
+    }
+    .social_media {
+        left: 4%;
+        top: 35%;
+    }
+    .callbacks_tabs {
+        bottom: 10%;
+        left: 42%;
+    }
+    .slider-banner-info a {
+        padding: 8px 20px;
+        letter-spacing: 2px;
+        font-size: 14px;
+        margin: 0.3em 0.3em 0em;
+    }
+    .slider-banner-info {
+        padding-top: 6em;
+    }
+    .thim-click-to-bottom {
+        position: absolute;
+        bottom: 32%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0.5em 0.4em;
+        font-size: 0.8em;
+    }
+    .card-title {
+        font-size: 1.4em;
+    }
+    h3.tittle {
+        font-size: 2.5em;
+    }
+    .jssor_1 {
+        margin: 80px auto;
+    }
+
+}
+
+@media(max-width:1050px) {
+    .header-search button.btn1 {
+        width: 23%;
+        border-radius: 0;
+    }
+    .header-search input[type="search"] {
+        width: 75%;
+        border-radius: 0;
+    }
+    .navbar {
+        padding: 0.8em 1em;
+    }
+    .newsright {
+        margin: 0 auto;
+        width: 75%;
+    }
+
+}
+
+@media(max-width:1024px) {}
+
+@media(max-width:991px) {
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0.4em 1.4em;
+        font-size: 0.9em;
+        text-align: center;
+    }
+    li.nav-item {
+        margin: 6px 0px 0 0;
+    }
+    .dropdown-item {
+        text-align: center;
+    }
+    .active > .nav-link,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #555;
+        text-shadow: 1px 1px 2px #000000;
+        border: 2px solid #ffffff;
+        border-radius: 3px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0.7em 1.4em;
+        font-size: 0.9em;
+        text-align: center;
+        color: #555;
+    }
+    #navbarSupportedContent {
+        background: #fff;
+        padding: 0.5em 0;
+    }
+    .cd-header-buttons {
+        top: 20px;
+        right: 60px;
+    }
+    .service-in:nth-child(2) {
+        margin-top: 1.5em;
+    }
+    .card.feature {
+        border: 0;
+        width: 50%;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #e7e7e8;
+    }
+    .service-in:nth-child(2) {
+        margin: 2em 0em;
+    }
+    span.navbar-toggler-icon i {
+        line-height: 1.2em;
+        font-size: 1.4em;
+    }
+    .navbar-toggler {
+        padding: 0.3rem 0.6rem;
+        font-size: 1.25rem;
+        border: 1px solid transparent;
+        border-radius: 0;
+    }
+    #navbarSupportedContent {
+        background: #fff;
+        padding: 0.5em 0;
+        position: absolute;
+        width: 90%;
+        z-index: 99;
+        top: 100%;
+    }
+    form.header-search {
+        width: 60%;
+        margin: 0 auto;
+    }
+    li.breadcrumb-item a {
+        color: #eb2941;
+    }
+    .address-grid {
+        margin-bottom: 1em;
+    }
+    .ab-text-con {
+        margin-top: 2em;
+    }
+    .member-main-slider {
+        float: left;
+        width: 50%;
+        margin-bottom: 1em;
+    }
+    .galsses-grid-right {
+        padding: 0 5em 0 0em;
+        margin-top: 1em;
+    }
+    .testimonials {
+        min-height: 378px;
+    }
+    .social_media ul li a {
+        font-size: 12px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        line-height: 29px;
+    }
+    .copyright {
+        text-align: center;
+        margin-bottom: 1.5em;
+    }
+    .social_media.footer-icons,
+    .social_media.footer-icons ul {
+        text-align: center !important;
+    }
+    .error-404 form {
+        margin: 0 auto 2em;
+        width: 62%;
+        text-align: center;
+    }
+    .banner-inner {
+        padding: 2em 0;
+    }
+    .image {
+        display: block;
+        margin-top: 15%;
+        margin-bottom: 55%;
+    }
+    .jssor_1 {
+        margin: 100px auto;
+    }
+}
+
+@media(max-width:900px) {
+    .slider-banner-info h3 {
+        font-size: 1.5em;
+    }
+    .slider-banner-info h5 {
+        font-size: 0.9em;
+    }
+    .callbacks_tabs a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .banner-top,
+    .banner-top1,
+    .banner-top2,
+    .banner-top3,
+    .covering {
+        min-height: 450px;
+    }
+    .thim-click-to-bottom {
+        position: absolute;
+        bottom: 28%;
+    }
+    p.para {
+        font-size: 1em;
+    }
+    .member-main-slider h4 {
+        font-size: 1.2em;
+    }
+    .testimonials_grid p {
+        width: 92%;
+        margin: 1em auto 0;
+        line-height: 2em;
+    }
+    .footer-right-info h6 {
+        font-size: 1.6em;
+    }
+    
+}
+
+@media(max-width:800px) {
+    .slider-banner-info p {
+        font-size: 0.9em;
+        color: #fff;
+        margin: 1.5em 0;
+        letter-spacing: 3px;
+    }
+    .slider-banner-info {
+        padding-top: 4em;
+    }
+    .jssor_1 {
+        margin: 80px auto;
+    }
+
+}
+
+@media(max-width:768px) {}
+
+@media(max-width:767px) {
+    .slider-banner-info {
+        padding-top: 4em;
+    }
+    .callbacks_tabs a {
+        width: 26px;
+        height: 26px;
+        line-height: 23px;
+        font-size: 0.8em;
+    }
+    .ab-one {
+        margin-bottom: 1em;
+    }
+    .slider-banner-info p {
+        font-size: 0.9em;
+        margin: 1.3em 0;
+        letter-spacing: 3px;
+    }
+    a.animated-button:link,
+	a.animated-button:visited {
+		position: relative;
+		padding: 10px 30px;
+    }
+    .image {
+        display: block;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
+
+@media(max-width:667px) {
+    .form {
+        padding: 3em 2em;
+    }
+    .main_grid_contact {
+        width: 100%;
+        position: static;
+    }
+    .map {
+        margin-bottom: 1em;
+    }
+    .address {
+        margin-top: 2em;
+    }
+    .address-right.text-left {
+        text-align: center !important;
+        margin-top: 1em;
+    }
+    .testimonials_grid h3 {
+        margin: 1em 0 0.5em 0;
+        font-size: 1em;
+    }
+    p {
+        margin: 0;
+        font-size: 0.85em;
+    }
+}
+
+@media(max-width:640px) {
+    .callbacks_tabs {
+        bottom: 10%;
+        left: 38%;
+    }
+    .thim-click-to-bottom {
+        position: absolute;
+        bottom: 28%;
+        left: 47%;
+    }
+    h3.tittle {
+        font-size: 2.3em;
+    }
+    .newsright {
+        width: 92%;
+    }
+    .image {
+        display: block;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .jssor_1 {
+        margin: 60px auto;
+    }
+}
+
+@media(max-width:568px) {
+    h3.tittle {
+        font-size: 2em;
+    }
+    figure.effect-lexi h3 {
+        font-size: 16px;
+    }
+    .galsses-grid-right {
+        padding: 0 5em 0 2em;
+        margin-top: 1em;
+    }
+    h4.post {
+        font-size: 1.1em;
+    }
+    .galsses-grid-right h5 {
+        font-size: 0.9em;
+    }
+    .member-main-slider h4 {
+        font-size: 1.1em;
+    }
+    .team-social ul.social-icons li a {
+        font-size: 12px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        line-height: 29px;
+    }
+    .slider-banner-info h3 {
+        font-size: 1.4em;
+    }
+    .slider-banner-info h5 {
+        font-size: 0.4em;
+    }
+    .slider-banner-info a {
+        padding: 8px 16px;
+        letter-spacing: 1px;
+        font-size: 13px;
+        margin: 0.3em 0.3em 0em;
+    }
+
+}
+
+@media(max-width:480px) {
+    h3.tittle {
+        font-size: 2em;
+    }
+    figure.effect-lexi h3 {
+        font-size: 16px;
+    }
+    .slider-banner-info h3 {
+        font-size: 2.2em;
+    }
+    .slider-banner-info p {
+        font-size: 0.85em;
+        margin: 1em 0;
+        letter-spacing: 1px;
+    }
+    .banner-top,
+    .banner-top1,
+    .banner-top2,
+    .banner-top3,
+    .covering {
+        min-height: 399px;
+    }
+    .slider-banner-info {
+        padding-top: 2.5em;
+    }
+    .callbacks_tabs {
+        bottom: 10%;
+        left: 35%;
+    }
+    .social_media {
+        left: 4%;
+        top: 30%;
+    }
+    .rotate a {
+        font-size: 13px;
+        padding: 7px;
+        line-height: 65px;
+    }
+    .navbar-brand {
+        width: 60px;
+        height: 55px;
+        background-size: contain;
+    }
+    p.para {
+        font-size: 0.9em;
+    }
+    .ab-grid {
+        margin-bottom: 1em;
+    }
+    .member-main-slider {
+        float: left;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .jssor_1 {
+        margin: 40px auto;
+    }
+}
+
+@media(max-width:440px) {
+    .slider-banner-info h3 {
+        font-size: 1.5em;
+    }
+    .slider-banner-info h5 {
+        font-size: 0.6em;
+    }
+    .slider-banner-info a {
+        padding: 6px 16px;
+        letter-spacing: 1px;
+        font-size: 13px;
+        margin: 0em 0.1em 0em;
+    }
+    .slider-banner-info p {
+        font-size: 0.85em;
+        margin: 0.5em 0 0.8em 0;
+        letter-spacing: 1px;
+    }
+    .logo h2 a {
+        font-size: 1.2em;
+    }
+    .address-info {
+        padding: 2em 1em;
+        margin: 0;
+    }
+}
+
+@media(max-width:414px) {
+    .banner-top,
+    .banner-top1,
+    .banner-top2,
+    .banner-top3,
+    .covering {
+        min-height: 346px;
+    }
+    .newsright input[type="email"] {
+        width: 53%;
+    }
+    .newsright input[type="submit"] {
+        padding: 16px 20px 16px;
+        font-size: 15px;
+        width: 43%;
+    }
+    h3.tittle {
+        font-size: 1.8em;
+    }
+    .callbacks_tabs {
+        bottom: 10%;
+        left: 33%;
+    }
+    .jssor_1 {
+        margin: 40px auto;
+    }
+}
+
+@media(max-width:384px) {
+    .social_media ul li a {
+        font-size: 10px;
+        width: 26px;
+        height: 26px;
+        line-height: 23px;
+    }
+    .social_media ul li {
+        list-style: none;
+        margin-bottom: 0.4em;
+    }
+    .social_media {
+        left: 4%;
+        top: 38%;
+    }
+    .slider-banner-info p {
+        font-size: 0.8em;
+        margin: 0.5em 0 0.8em 0;
+        letter-spacing: 1px;
+    }
+}
+
+@media(max-width:375px) {
+    .slider-banner-info h3 {
+        font-size: 1.5em;
+    }
+    .slider-banner-info h5 {
+        font-size: 0.5em;
+    }
+    a.navbar-brand {
+        font-size: 0.8em;
+    }
+    .social_media {
+        left: 4%;
+        top: 56%;
+    }
+    a.animated-button:link,
+	a.animated-button:visited {
+		position: relative;
+		padding: 8px 20px;
+		font-size: 12px;
+    }
+    .jssor_1 {
+        margin: 20px auto;
+    }
+}
+
+@media(max-width:320px) {
+    .slider-banner-info h3 {
+        font-size: 1.3em;
+    }
+    .slider-banner-info h5 {
+        font-size: 0.4em;
+    }
+    .banner-top,
+    .banner-top1,
+    .banner-top2,
+    .banner-top3,
+    .covering {
+        min-height: 289px;
+    }
+    .social_media {
+        left: 3%;
+        top: 49%;
+    }
+    .slider-banner-info a {
+        padding: 5px 7px;
+        letter-spacing: 1px;
+        font-size: 12px;
+        margin: 0em 0.1em 0em;
+    }
+    h3.tittle {
+        font-size: 1.6em;
+    }
+    .slider-banner-info p {
+        font-size: 0.7em;
+        margin: 0.5em 0 0.8em 0;
+        letter-spacing: 1px;
+    }
+    .callbacks_tabs a {
+        width: 20px;
+        height: 20px;
+        line-height: 17px;
+        font-size: 0.7em;
+    }
+    .image {
+
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    .jssor_1 {
+        margin: 0px auto;
+    }
+}
+
+/*--//responsive--*/

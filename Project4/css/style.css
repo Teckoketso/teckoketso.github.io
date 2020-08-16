@@ -1,0 +1,561 @@
+/*--
+    Author: Koketso Motlapema
+--*/
+
+html,
+body {
+    margin: 0;
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+}
+
+body a {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s  all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0,5s all;
+    font-family: 'Poppins', sans-serif; 
+}
+
+body img {
+    width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="text"],
+input[type="email"],
+input[type="search"] {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #8c9398;
+    line-height: 2em;
+    letter-spacing: 1px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+
+/*-- Navbar --*/
+
+
+/*--/search--
+
+form.header-search {
+    width: 25%;
+}
+
+.header-search form {
+    background: #e7e9ea;
+    padding: 0.3em;
+    border-radius: 50px;
+}
+
+.header-search input[type="search"] {
+    outline: none;
+    border: none;
+    padding: 11px 14px;
+    color: #fff;
+    font-size: 14px;
+    background: rgba(113, 114, 130, 0.2);
+    float: left;
+    letter-spacing: 1px;
+    width: 82%;
+    border-radius: 0;
+}
+
+.header-search button.btn1 {
+    color: #fff;
+    border: none;
+    padding: 9px 9px 10px 9px;
+    text-align: center;
+    text-decoration: none;
+    background: #ffa500;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    float: right;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 0;
+}
+
+/*--//search--*/
+
+/*-- /search --*/
+
+.search i {
+    color: #fff;
+    margin: 0.8em 1em;
+}
+
+/*-- //header --*/
+
+/*-- /slider-banner-info --*/
+
+/*--*/
+
+/*-- //top-nav --*/
+
+
+/*-- Button View More 
+
+.btn, .hover {
+    outline: none;
+    color: #FFFFFF;
+    padding: .4em 1em;
+    font-size: .9em;
+    margin: 1em 0 0 0;
+    -webkit-appearance: none;
+    background: #F44336;
+    border: 2px solid #F44336;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+*/
+
+/* -- Footer --*/
+
+footer {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size:cover;
+    position: relative;
+	padding: 0em 0;
+}
+
+.footer-grid h3 {
+	font-size: 1.4em;
+	color: #ffffff;
+	font-weight: 300;
+	margin-bottom: 1em;
+	letter-spacing: 1px;
+	border-bottom: 1px dotted #fff;
+	padding-bottom: 0.8em;
+}
+
+.footer-text p,
+.contact-info p {
+	color: black;
+	font-size: 12px;
+	line-height: 1.8em;
+}
+
+.phone {
+	margin-top: 20px;
+}
+
+.contact-info h4 {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 1.9;
+	color: #99d9f3;
+}
+
+.copyright {
+    color: rgba(244, 244, 244, 0)
+}
+
+.copyright p {
+    font-size: 15px;
+    color: rgb(12, 11, 11)
+}
+
+.copyright p a:hover {
+	color: #fff;
+}
+
+.footer p a {
+	color: #333;
+}
+
+.newsletter .email {
+	background-color: #F4F4F4;
+	border: none;
+}
+
+.footer-text input[type="email"] {
+	outline: none;
+	padding: 12px 15px;
+	color: #fff;
+	font-size: 13px;
+	width: 84%;
+	border: none;
+	background: none;
+	letter-spacing: 1px;
+	float: left;
+}
+
+.newsletter {
+	position: relative;
+	margin-top: 2em;
+}
+
+button.btn1 {
+	color: #fff;
+	border: none;
+	padding: 10px 0;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	background: none;
+	cursor: pointer;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	transition: 0.5s all;
+	float: right;
+	width: 15%;
+}
+
+.footer-grid form {
+	border: 1px solid #3e3c3c;
+	width: 100%;
+	margin-top: 20px;
+}
+
+ul.social_section_1info li {
+	display: inline-block;
+}
+
+ul.social_section_1info {
+	margin-top: 15px;
+}
+
+ul.social_section_1info a {
+	color: #fff;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+ul.social_section_1info a:hover {
+	color: #fff;
+}
+
+.phone p a {
+	color: #F4F4F4;
+}
+
+.phone p a:hover {
+	color: #fff;
+}
+
+ul.links li {
+	list-style-type: none;
+	margin: 10px 0;
+}
+
+ul.links li a {
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: .5px;
+}
+
+ul.links li a:hover {
+	color: #ffa200;
+}
+
+.copyright a i:hover {
+	color: #ffa200;
+	transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+}
+
+/*--social-icons--*/
+
+.icon-social {
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 100%;
+	margin-top: 3em;
+}
+
+/** Button Code **/
+
+.button-footr {
+	width: 30px;
+	height: 30px;
+	line-height: 26px;
+	display: block;
+	position: relative;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px solid #ffa200;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	z-index: 10;
+	color: #fff;
+}
+
+.button-footr:hover {
+	color: #fff;
+}
+
+.button-footr:after {
+	position: absolute !important;
+	content: "";
+	width: 14px;
+	height: 14px;
+	display: block;
+	position: relative;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	right: 6px;
+	top: 6px;
+	background-color: #ffa200;
+	visibility: hidden;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	opacity: 1\9;
+	visibility: visible\9;
+	display: none\9;
+	-moz-transform: scale(0.5, 0.5);
+	-ms-transform: scale(0.5, 0.5);
+	-webkit-transform: scale(0.5, 0.5);
+	transform: scale(0.5, 0.5);
+	z-index: -1;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.button-footr:hover:after {
+	visibility: visible;
+	filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+	opacity: 1;
+	display: block\9;
+	-moz-transform: scale(1, 1);
+	-ms-transform: scale(1, 1);
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+}
+
+/*--//social-icons--*/
+
+.copyright a {
+	color: #99D9F3;
+}
+
+/* footer grids */
+
+section.footerind-top .container {
+    border-top:;
+}
+
+h4.feed-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #333;
+    text-transform: capitalize;
+}
+
+h4.feed-title span {
+    color: #ffa200;
+}
+
+/*--//footer--*/
+
+/*-- to-top --*/
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 20px;
+	right: 2%;
+	overflow: hidden;
+	z-index: 999; 
+	width: 40px;
+	height: 40px;
+	border: none;
+	text-indent: 100%;
+	background: url(../images/arr.png) no-repeat 0px 0px;
+}
+#toTopHover {
+	width: 40px;
+	height: 40px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+/*-- //to-top --
+.image-container {
+	position: relative;
+	clear: both;
+	background-color: #6a6c6d;
+	overflow: hidden;
+}
+
+.background {
+	opacity: -10;
+}
+
+.highlight {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	clip: rect(20px 540px 370px 0px)
+}
+
+.image {
+	margin: 39%;
+}
+*/
+.table th,
+.table td {
+  padding: 0.0rem;
+  vertical-align: top;
+  border-top: none;
+}
+.card-footer {
+	margin: 0;
+}
+
+#myCarousel .list-inline {
+	white-space: nowrap;
+	overflow-x: auto;
+}
+
+#myCarousel .caraousel-indicators {
+	position: static;
+	left: initial;
+	width: initial;
+	height: initial;
+	text-indent: initial;
+}
+
+#myCarousel .caraousel-indicators> li :active img {
+	opacity: 0.7;
+}
+
+.container1 {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 0.8em
+}
+
+.bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 10px;
+	background: #000;
+}
+.bottom-right {
+	position: absolute;
+	bottom: 8px;
+	right: 10px;
+	background: #000;
+}
+
+/*jssor slider loading skin spin css*/
+.jssorl-009-spin img {
+	animation-name: jssorl-009-spin;
+	animation-duration: 1.6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+/*jssor slider arrow skin 106 css*/
+.jssora106 {display:block;position:absolute;cursor:pointer;}
+.jssora106 .c {fill:#fff;opacity:.3;}
+.jssora106 .a {fill:none;stroke:#000;stroke-width:350;stroke-miterlimit:10;}
+.jssora106:hover .c {opacity:.5;}
+.jssora106:hover .a {opacity:.8;}
+.jssora106.jssora106dn .c {opacity:.2;}
+.jssora106.jssora106dn .a {opacity:1;}
+.jssora106.jssora106ds {opacity:.3;pointer-events:none;}
+
+/*jssor slider thumbnail skin 101 css*/
+.jssort101 .p {position: absolute;top:0;left:0;background:transparent;}
+.jssort101 .p .cv {position:relative;top:0;left:0;width:100%;height:100%;}
+.jssort101 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;visibility:hidden;}
+.jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {border:none;border-color:transparent;}
+.jssort101 .p:hover{padding:2px;}
+.jssort101 .p:hover .cv {background-color:rgba(0,0,0,6);opacity:.35;}
+.jssort101 .p:hover.pdn{padding:0;}
+.jssort101 .p:hover.pdn .cv {border:0px solid #fff;background:none;opacity:.35;}
+.jssort101 .pav .cv {border-color:#fff;opacity:.35;}
+.jssort101 .pav .a, .jssort101 .p:hover .a {visibility:visible;}
+.jssort101 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}
+.jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
+
+.jssor_1 {
+	position:relative;
+	margin:180px auto;
+	top:auto;
+	width:500px;
+	height:400px;
+	overflow:hidden;
+	visibility:hidden;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0,0,0,0.4)
+	
+}
+
+.bgimage {
+	background-image: url(../images/car24.jpg);
+
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}

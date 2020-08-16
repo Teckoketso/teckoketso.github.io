@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            File Validation
+        </title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container py-5">
+            <form role="form" method="post" id="reused_form" enctype=&quot;multipart/form-data&quot; >
+                First name:<br>
+                <p>
+                    <input type="text" name="name" id="name" placeholder="First Name">
+                </p>
+                <p>
+                    <input type="text" name="email" placeholder="your email">
+                </p>
+                <p>
+                    <input type="file" name="uploaded_file" id="file" onchange="Filevalidation()"/>
+                </p>
+                <p id="size"></p>
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
+            </form>
+        </div>
+    </body>
+    <script>
+        Filevalidation = () => {
+            const fi = document.getElementById('file');
+            //Check if an file is selected
+            if (fi.files.length > 0) {
+                for (const i = 0; i <=fi.files.length - 1; i++){
+                    const fsize = fi.files.item(i).size;
+                    const file = Math.round((fsize / 1024));
+                    //file size
+                    if (file >= 30720){
+                        alert (
+                            "File too Big, please select a file less than 30MB"
+                        )
+                    }
+                    else if (file< 1024){
+                        alert(
+                            "File too small, please select a file greater than 1mb"
+                        )
+                    }
+                    else {document.getElementById('size').innerHTML = '<b>' + file + '</b> KB';
+                    }
+                }
+            }
+        }    
+    </script>
+</html>

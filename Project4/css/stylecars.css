@@ -1,0 +1,28 @@
+/*-- Cars --*/
+.cars {
+}
+
+.agileits-cars1 h5 {
+    font-size: 18px;
+    color: #333;
+	text-transform: uppercase;
+     font-weight: 700;
+    letter-spacing: 3px;
+}
+.agileits-cars1 p {
+    margin: 0;
+    font-size: 15px;
+    color: #777;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.cars-right p {
+    font-size: 20px;
+}
+.cars-info {
+    background: #eee;
+    padding: 1.5em;
+    padding-left: 1em;
+    text-align: left;
+}
