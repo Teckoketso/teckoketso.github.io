@@ -1223,6 +1223,11 @@ p.w3l-par-st {
 	.service-list.service-list-right li:nth-child(3) {
 		left: -20px;
 	}
+	.agileinfo_stats_grid {
+		width: 145px;
+		height: 145px;
+		padding: 1em 0;
+	}
 	
 }
 
@@ -1649,6 +1654,17 @@ p.w3l-par-st {
 	}
 	.about-grids h3 {
 		font-size: 16px;
+	}
+	.agileinfo_stats_grid {
+		width: 125px;
+		height: 125px;
+	}
+	.agileinfo_stats_grid {
+		box-shadow: 5px 5px #fff;
+		-webkit-box-shadow: 5px 5px #fff;
+		-o-box-shadow: 5px 5px #fff;
+		-moz-box-shadow: 5px 5px #fff;
+		-ms-box-shadow: 5px 5px #fff;
 	}
 	
 }
