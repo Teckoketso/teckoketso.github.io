@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Multiple Selections</h1>
+        <form action = "">
+            
+            <label>
+            Select the language(s) you know.
+            (ctrl-click to select multiple lines)
+            </label>
+            <select multiple size = "10">
+                <option value = "HTML">HTML</option>
+                <option value = "CSS">CSS</option>
+                <option value = "JavaScript">JavaScript</option>
+                <option value = "PHP">PHP</option>
+                <option value = "MySQL">MySQL</option>
+                <option value = "Java">Java</option>
+                <option value = "VB.NET">VB.NET</option>
+                <option value = "Python">Python</option>
+                <option value = "Flash">Flash</option>
+                <option value = "Perl">perl</option> 
+            </select>
+            <button type = "button"
+            onclick = "showChoices()">
+            Submit 
+            </button>
+            
+        </form>
+    <div id = "output">
+    </div>
+   
+
+    <script type = "text/javascript">
+        //from multi-select.html
+        function showChoices(){
+        //retrieve data
+        var selLanguage = document.getElementById("selLanguage");
+        //set up output string
+        var result = "<h2>Your Languages</h2>";
+        result += "<ul> n";
+        //step through options
+        for (i = 0; i < selLanguage.length; i++){
+         //examine current option
+         currentOption = selLanguage[i];
+         //print it if it has been selected
+         if (currentOption.selected == true){
+         result += " <li>" + currentOption.value + "</li> n";
+         } // end if
+        } // end for loop
+        //finish off the list and print it out
+        result += "</ul> n";
+        output = document.getElementById("output");
+        output.innerHTML = result;
+        } // end showChoices
+    </script>
+</body>
+</html>
